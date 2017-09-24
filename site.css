@@ -16,6 +16,7 @@ body {
 	padding: 25px;
 	margin: 0px;
 	border-bottom: 10px solid black;
+	text-transform: uppercase;
 }
 
 .conteudo-pagina {
@@ -56,6 +57,7 @@ blockquote {
 .navegacao-site a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+    text-transform: lowercase;
 }
 
 article {
@@ -66,6 +68,25 @@ article {
 
 .icones-sociais li {
 	display: inline-block;
+}
+
+.icones-sociais a {
+	width: 40px;
+	height: 40px;
+	text-indent: -9999px;
+	display: block;
+}
+
+.github {
+	background-image: url("github.png");
+}
+
+.linkedin {
+	background-image: url("linkedin.png");
+}
+
+.twitter {
+	background-image: url("twitter.png");
 }
 
 .navegacao-site h1 {
