@@ -51,6 +51,10 @@ aside a {
     font-family: "Open Sans Condensed", sans-serif;
 }
 
+aside li {
+	display: inline-block;
+}
+
 aside h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
