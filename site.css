@@ -1,5 +1,7 @@
 /**
 line-height -> tamanho entre as linhas 
+Floats seguidos formam uma linha
+usa clear para evitar floats fazendo com que siga o fluxo do html
 */
 body {
 	background-color: #F2FFFC;
@@ -26,6 +28,17 @@ body {
 	padding: 30px 0px;
 }
 
+main {
+	width: 80%;
+	float: left;
+}
+
+blockquote cite {
+	display: block;
+	float: right;
+	font-style: italic;
+}
+
 /**
 box-sizing: border-box -> calcula o tamanho do width a partir da borda e n do conteudo 
 */
@@ -38,10 +51,19 @@ blockquote {
 	padding: 20px;
 }
 
+.citacao-bio-fiat {
+	float: right;
+}
+
+.citacao-bio-petrobras {
+	float: left;
+}
+
 .navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
     padding: 20px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -89,15 +111,14 @@ article {
 	background-image: url("twitter.png");
 }
 
-.navegacao-site h1 {
-	font-size: 30px;
-	margin-bottom: 25px;
-}
-
 #rodape-pagina {
 	background-color: #000;
 	color: #F2FFFC;
 	padding: 20px;
+}
+
+.sub-titulo {
+	clear: both;
 }
 
 h2 {
@@ -119,4 +140,18 @@ strong {
 
 em {
     font-style: italic;
+}
+
+.navegacao-site, .minha-foto {
+	width: 20%;
+	float: right;
+	border-bottom: 10px solid black;
+	border-left: 10px solid black;
+	box-sizing: border-box;
+}
+
+
+
+.clearfix {
+	clear: both;
 }

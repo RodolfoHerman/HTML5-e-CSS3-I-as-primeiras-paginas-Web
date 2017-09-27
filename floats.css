@@ -1,0 +1,36 @@
+div {
+	font-size: 25px;
+	line-height: 80px;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+}
+
+#quadrado1 {
+	background-color: orange;
+	float: left;
+}
+
+#quadrado2 {
+	background-color: red;	
+	float: left;
+}
+
+#quadrado3 {
+	width: 160px;
+	height: 160px;
+	line-height: 160px;
+	background-color: green;	
+	float: right;
+}
+
+#quadrado4 {
+	background-color: yellow;	
+	float: right;
+	
+}
+
+#quadrado5 {
+	background-color: blue;	
+	clear: both;
+}
