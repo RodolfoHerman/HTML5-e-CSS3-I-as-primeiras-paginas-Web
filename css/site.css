@@ -21,6 +21,24 @@ body {
 	text-transform: uppercase;
 }
 
+/**
+box-sizing: border-box -> calcula o tamanho do width a partir da borda e n do conteudo 
+*/
+blockquote {
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	margin: 20px 40px;
+	width: 250px;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+blockquote cite {
+	display: block;
+	float: right;
+	font-style: italic;
+}
+
 .conteudo-pagina {
 	width: 720px;
 	margin-left: auto;
@@ -32,24 +50,6 @@ main {
 	width: 85%;
 	float: left;
 	padding-bottom: 90px;
-}
-
-blockquote cite {
-	display: block;
-	float: right;
-	font-style: italic;
-}
-
-/**
-box-sizing: border-box -> calcula o tamanho do width a partir da borda e n do conteudo 
-*/
-blockquote {
-	background-color: #D9E5E3;
-	border: 10px solid #C2CCCA;
-	margin: 20px 40px;
-	width: 250px;
-	box-sizing: border-box;
-	padding: 20px;
 }
 
 .citacao-bio-fiat {
@@ -72,25 +72,10 @@ blockquote {
     top: 310px;
 }
 
-.leia-mais {
-    padding: 8px;
-    margin: 16px;
-    display: block;
-    font-size: 24px;
-    text-align: center;
-    background-color: #E6E7E8;
-}
-
 .navegacao-site a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
     text-transform: lowercase;
-}
-
-article {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
 }
 
 .icones-sociais li {
@@ -105,15 +90,15 @@ article {
 }
 
 .github {
-	background-image: url("github.png");
+	background-image: url("../img/github.png");
 }
 
 .linkedin {
-	background-image: url("linkedin.png");
+	background-image: url("../img/linkedin.png");
 }
 
 .twitter {
-	background-image: url("twitter.png");
+	background-image: url("../img/twitter.png");
 }
 
 #rodape-pagina {

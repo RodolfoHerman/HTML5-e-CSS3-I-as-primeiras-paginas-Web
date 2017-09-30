@@ -1,0 +1,19 @@
+/**
+Para deixar as caixinhas lado a lado, formando linhas, e conseguir controlar o padding e a margem entre elas, usamos a propriedade display com o valor inline-block.
+*/
+
+.portfolio-trabalho li {
+	display: inline-block;
+	background-color: #FAFFFC;
+	width: 45%;
+	text-align: center;
+	border: 8px solid black;
+	padding: 16px;
+	margin-right: 16px;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+}
+
+.portfolio-trabalho img {
+	width: 100%;
+}
